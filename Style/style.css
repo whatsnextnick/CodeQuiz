@@ -1,0 +1,42 @@
+body {
+    font-size: 18px;
+    text-align: center;
+    background-color: midnightblue;
+  }
+  
+  h1, p {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .header {
+    text-align: right ;
+    padding: 40px 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  #view-scores {
+    cursor: pointer;
+  }
+  
+  /* set the cursor to pointer */
+  .pointer {
+    cursor: pointer;
+  }
+  
+  .center {
+    width: 60%;
+    position: absolute;
+    top: 52%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  #name-page {
+    width: 80%;
+    max-width: 495px;
+    align-items: center;
+    display: none;
+  }
